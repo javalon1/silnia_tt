@@ -1,8 +1,5 @@
 package com.sda.algorytmy;
 
-/**
- * Hello world!
- */
 public class App {
     public static void main(String[] args) {
     /*    int silnia = 5;
