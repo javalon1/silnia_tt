@@ -17,6 +17,7 @@ public class App
         */
         int b=6;
         System.out.println(silnia(b));
+        System.out.println(ciag(b));
 
     }
     public static int silnia(int a){
@@ -25,6 +26,18 @@ public class App
         }
         else {
             return a*silnia(a-1);
+        }
+    }
+
+    public static double ciag(int a){
+        if (a==1){
+            return 1;
+        }
+        else if (a==2){
+            return 0.5;
+        }
+        else{
+            return -ciag(a-1)*ciag(a-2);
         }
     }
 
